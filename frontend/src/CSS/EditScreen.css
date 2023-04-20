@@ -1,0 +1,116 @@
+.editScreen {
+    background-color: #f5f6f8;
+    padding: 0 10%;
+    
+}
+
+
+
+.flex {
+     display: flex;
+}
+
+.left {
+    flex: 0.5;
+}
+
+
+
+.right {
+    flex: 0.5;
+}
+
+
+
+.title {
+    border: none;
+    outline: none;
+    border-bottom: 1px lightgray solid;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.description {
+    height: 150px;
+    flex-wrap: wrap;
+    font-size: large;
+    border-radius: 20px;
+    
+
+}
+
+.dueDate {
+    border: none;
+    outline: none;
+    font-size: large;
+    border-radius: 10px;
+    max-height: 20px;
+    
+}
+
+
+
+.dueDate-div {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    max-width: 250px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    height: 40px;
+ 
+}
+
+
+
+
+
+
+
+select {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+
+
+.update-btn {
+    width: 30%;
+    height: 30px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(197, 181, 241);
+    border: none;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    outline: none;
+    margin: 20px 25%;
+}
+
+.select-dropdown {
+    display: flex;
+}
+
+.select-dropdown div {
+    margin-right: 10px;
+}
+
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (max-width: 700px) { 
+
+    .flex {
+        display: block;
+   }
+
+   .select-dropdown {
+    display: block;
+}
+
+
+}

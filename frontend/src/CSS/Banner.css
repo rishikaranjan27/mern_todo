@@ -1,0 +1,82 @@
+.signinDesktop {
+    display: visible;
+}
+
+
+.bannerContainerMobile {
+    display: none;
+
+}
+
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (max-width: 700px) {
+
+
+
+    .signinDesktop {
+        display: none;
+   }
+
+
+    .bannerContainerMobile {
+        display: block;
+        visibility: visible;
+        min-height: 100vh;
+        min-width: 100wh;
+        background-size: cover;
+        background-position: center;
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), 
+        url('../Images/signin.png');
+        text-align: center;
+        color: white;
+        padding-top: 50%;
+        padding-bottom: 20%;
+    }
+    
+    
+    .mobile-btns button {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+    }
+    
+    
+    .mobile-active-btn {
+        background-color: rgb(201, 217, 255);
+        color: black;
+        border: none;
+        width: 80%;
+        padding: 12px 10px;
+        border-radius: 3px;
+        font-size: medium;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+    
+    
+    .mobile-inactive-btn {
+        background-color: rgb(223, 233, 255);
+        color: black;
+        border: none;
+        width: 80%;
+        padding: 12px 10px;
+        border-radius: 3px;
+        font-size: medium;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+    
+
+   
+
+ }
+ 
+ 

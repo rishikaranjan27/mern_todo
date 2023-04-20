@@ -1,0 +1,178 @@
+.homeScreen {
+    background-color: #f5f6f8;
+    height: 100vh;
+}
+
+
+
+.sortBar {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 10%;
+
+}
+
+
+.sortBar-left {
+    display: flex;
+
+}
+
+.small-downBtn {
+    display: none;
+
+}
+
+
+.home-btn {
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+}
+
+.static-btn {
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+.add-btn {
+    width: 120px;
+    height: 30px;
+    font-weight: 500;
+    color: #000;
+    background-color: #91AAFB;
+    border: none;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.add-btn:hover{
+    background-color: #809cf7;
+
+}
+
+
+.icon-add {
+    max-width: 18px;
+}
+
+
+
+.home-btn:hover {
+    background-color: rgb(197, 181, 241);
+}
+
+.active-btn {
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(197, 181, 241);
+    border: none;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.main {
+    padding: 10px 10vw;
+    background-color: #f5f6f8;
+    
+}
+
+.createTask {
+    height: 50vh;
+    padding: 50px 30vw;
+    background-color: rgb(240, 240, 240);
+    color: rgb(150, 150, 150);
+}
+
+
+.createTask button {
+    width: 200px;
+    height: 30px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgba(116,153,241);
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (max-width: 700px) {
+
+    
+    .sortBar-left {
+        position: relative;
+        display: inline-block;
+    }
+    
+
+    .sortBar-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+
+    }
+
+    
+    .sortBar-left:hover .sortBar-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .static-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .small-downBtn {
+        display: block;
+    
+    }
+
+
+
+    .createTask {
+        padding: 50px 10vw;
+    }
+
+ 
+    
+   
+
+}
+
+
+
+

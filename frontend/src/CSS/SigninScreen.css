@@ -1,0 +1,116 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.signinScreen {
+    display: flex;
+}
+
+
+.bannerContainer {
+    min-height: 100vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: 
+    url('../Images/signin.png');
+    margin-right: 10%;
+}
+
+
+.bannerContainer h3 {
+    padding-left: 30px;
+}
+
+
+.bannerContainer h5 {
+    padding-left: 30px;
+} 
+
+
+.signinContainer {
+    width: 50%;
+    max-height: 100vh;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    max-height: 30px;
+    max-width: 30px;
+    padding-right: 10px;
+}
+
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+input {
+    border: 1px solid lightgray;
+    width: 80%;
+    padding: 12px 10px;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    background-color: rgba(116,153,241,255);
+    color: white;
+    border: none;
+    width: 80%;
+    padding: 12px 10px;
+    border-radius: 3px;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.link {
+    color: rgb(250,114,106);
+    text-decoration: none;
+}
+
+
+
+/* -------------Media Queries-------------- */
+
+
+
+@media only screen and (max-width: 700px) {
+
+    .bannerContainer {
+         display: none;
+    }
+    
+    .signinScreen {
+         display: block;
+         margin: 10px 10%;
+    }
+ 
+    .signinContainer {
+         width: 100%;
+    }
+ }
+ 
+ 

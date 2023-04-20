@@ -1,0 +1,55 @@
+.header {
+    background-color: #C0CFF3;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    padding: 10px 10%;
+    height: 20vh;
+}
+
+
+.home-link {
+    border: none;
+    outline: none;
+    color: black;
+    text-decoration: none;
+}
+
+.home-link:hover{
+    color:#3d57af;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-left img {
+    max-height: 60px;
+    max-width: 60px;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (max-width: 700px) {
+
+    .header {
+        padding: 0px 15%;
+    }
+
+    .header-left img {
+        max-height: 60px;
+        max-width: 60px;
+        padding-right: 10px;
+    }
+    
+
+}

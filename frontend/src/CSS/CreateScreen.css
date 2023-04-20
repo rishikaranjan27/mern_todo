@@ -1,0 +1,60 @@
+
+
+form {
+    margin: 10px 10%;
+}
+
+.create-flex {
+    display: flex;
+
+}
+
+.create-left {
+    flex: 0.5;
+}
+
+.create-right {
+    flex: 0.5;
+}
+
+
+
+
+.create-priority {
+    display: flex;
+    align-items: center;
+}
+
+.create-priority h4 {
+    margin-right: 10px;
+}
+
+.create-btn {
+    width: 30%;
+    height: 30px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(197, 181, 241);
+    border: none;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    outline: none;
+    margin: 20px 25%;
+}
+
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (max-width: 700px) { 
+
+    .create-flex {
+        display: block;
+    }
+
+    .create-priority {
+        display: block;
+    }
+
+    
+}
